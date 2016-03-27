@@ -85,7 +85,7 @@ section {
     padding-right: 15px;     /* Step 13. */
     padding-bottom: 15px;    /* Step 13. */
     padding-left: 15px;      /* Step 13. */
-    border: 1px solid green; /* Step 14. */
+    /*border: 1px solid green;*/ /* Step 14. */
   }
   .col-lg-1 {
     width: 8.333%;
@@ -136,7 +136,7 @@ section {
     padding-right: 15px;     /* Step 13. */
     padding-bottom: 15px;    /* Step 13. */
     padding-left: 15px;      /* Step 13. */
-    border: 1px solid green; /* Step 14. */
+    /*border: 1px solid green;*/ /* Step 14. */
   }
   .col-md-1 {
     width: 8.333%;
@@ -187,7 +187,7 @@ section {
     padding-right: 15px;     /* Step 13. */
     padding-bottom: 0;       /* Step 13. */
     padding-left: 15px;      /* Step 13. */
-    border: 1px solid green; /* Step 14. */    
+    /*border: 1px solid green;*/ /* Step 14. */    
   }
   .col-sm-1 {
     width: 8.333%;
