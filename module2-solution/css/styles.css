@@ -1,0 +1,233 @@
+/*
+ * Course_name: HTML, CSS, and Javascript for Web Developers
+ * Section: Coursera @ Johns Hopkins University
+ * Name: Fedorov Igor
+ * Date: March 26, 2016
+ * Assignment: Module 2 Coding Assignment
+ */
+
+/********** Base styles **********/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: Arial, Helvetica, sans-serif; /* Step 15. */
+  font-size: 100%; /* Step 15. */
+}
+
+html {
+  margin: 0px;
+  padding-left: 15px;   /* Step 13. */
+  padding-right: 15px;  /* Step 13. */
+}
+
+h1 {
+  margin-top: 15px;    /* Step 13. */
+  margin-bottom: 15px; /* Step 13. */
+  line-height: 10vw;   /* Step 13. */
+  text-align: center;  /* Step 15. */
+  font-size: 1.75em;   /* Step 15. */
+}
+
+/* Simple Responsive Framework. */
+.row  {
+  width: 100%;
+}
+
+section {
+  padding-top: 35px;   /* Step 13. */
+  padding-right: 5px;  /* Step 13. */
+  padding-bottom: 5px; /* Step 13. */
+  padding-left: 5px;   /* Step 13. */
+  border: 1px solid black;   /* Step 14. */
+  background-color: #999999; /* Step 14. *//* rgb(153, 153, 153) */
+  color: #000000;            /* Step 14. */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#title1, #title2, #title3 {  
+  position: absolute; /* Step 12. */
+  top: 15px;          /* Step 12. */
+  right: 15px;        /* Step 12. */
+  width: 100px;       /* Step 12. */
+  height: 35px;       /* Step 12. */
+  
+  padding-top: 7px;        /* Step 13. */
+  border: 1px solid black; /* Step 14. */
+  margin: 0 auto; 
+  text-align: center; /* Step 15. */
+  font-weight: bold;  /* Step 15. */
+  font-size: 1.25em;  /* Step 15. */
+}
+
+#title1 {
+  background-color: #d29898; /* Step 14. *//* rgb(210, 152, 152) */
+  color: #000000;            /* Step 14. */
+}
+#title2 {
+  background-color: #bc4443; /* Step 14. */ /* rgb(188, 68, 67) */
+  color: #ffffff;            /* Step 14. */
+}
+#title3 {
+  background-color: #e3d19a; /* Step 14. */ /* rgb(227, 209, 154) */
+  color: #000000;            /* Step 14. */
+}
+
+/* Step 9. */
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,
+  .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;             /* Step 9. */
+    position: relative;      /* Step 12. */
+    padding-top: 15px;       /* Step 13. */
+    padding-right: 15px;     /* Step 13. */
+    padding-bottom: 15px;    /* Step 13. */
+    padding-left: 15px;      /* Step 13. */
+    border: 1px solid green; /* Step 14. */
+  }
+  .col-lg-1 {
+    width: 8.333%;
+  }
+  .col-lg-2 {
+    width: 16.666%;
+  }
+  .col-lg-3 {
+    width: 24.999%;
+  }
+  .col-lg-4 {
+    width: 33.333%;
+  }
+  .col-lg-5 {
+    width: 41.666%;
+  }
+  .col-lg-6 {
+    width: 49.999%;
+  }
+  .col-lg-7 {
+    width: 58.333%;
+  }
+  .col-lg-8 {
+    width: 66.666%;
+  }
+  .col-lg-9 {
+    width: 74.999%;
+  }
+  .col-lg-10 {
+    width: 83.333%;
+  }
+  .col-lg-11 {
+    width: 91.666%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+/* Step 10. */
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7,
+  .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;             /* Step 9. */
+    position: relative;      /* Step 12. */
+    padding-top: 15px;       /* Step 13. */
+    padding-right: 15px;     /* Step 13. */
+    padding-bottom: 15px;    /* Step 13. */
+    padding-left: 15px;      /* Step 13. */
+    border: 1px solid green; /* Step 14. */
+  }
+  .col-md-1 {
+    width: 8.333%;
+  }
+  .col-md-2 {
+    width: 16.666%;
+  }
+  .col-md-3 {
+    width: 24.999%;
+  }
+  .col-md-4 {
+    width: 33.333%;
+  }
+  .col-md-5 {
+    width: 41.666%;
+  }
+  .col-md-6 {
+    width: 49.999%;
+  }
+  .col-md-7 {
+    width: 58.333%;
+  }
+  .col-md-8 {
+    width: 66.666%;
+  }
+  .col-md-9 {
+    width: 74.999%;
+  }
+  .col-md-10 {
+    width: 83.333%;
+  }
+  .col-md-11 {
+    width: 91.666%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/* Step 11. */
+/********** Small devices only **********/
+@media (max-width: 767px) {  
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7,
+  .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;             /* Step 9. */
+    position: relative;      /* Step 12. */
+    padding-top: 15px;       /* Step 13. */
+    padding-right: 15px;     /* Step 13. */
+    padding-bottom: 0;       /* Step 13. */
+    padding-left: 15px;      /* Step 13. */
+    border: 1px solid green; /* Step 14. */    
+  }
+  .col-sm-1 {
+    width: 8.333%;
+  }
+  .col-sm-2 {
+    width: 16.666%;
+  }
+  .col-sm-3 {
+    width: 24.999%;
+  }
+  .col-sm-4 {
+    width: 33.333%;
+  }
+  .col-sm-5 {
+    width: 41.666%;
+  }
+  .col-sm-6 {
+    width: 49.999%;
+  }
+  .col-sm-7 {
+    width: 58.333%;
+  }
+  .col-sm-8 {
+    width: 66.666%;
+  }
+  .col-sm-9 {
+    width: 74.999%;
+  }
+  .col-sm-10 {
+    width: 83.333%;
+  }
+  .col-sm-11 {
+    width: 91.666%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  
+  h1 {
+    padding-bottom: 0; /* Step 13. */
+    margin-bottom: 0;  /* Step 13. */
+  }
+}
