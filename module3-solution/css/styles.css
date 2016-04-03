@@ -1,0 +1,160 @@
+/*
+ * Course_name: HTML, CSS, and Javascript for Web Developers
+ * Section: Coursera @ Johns Hopkins University
+ * Name: Fedorov Igor
+ * Date: April 2, 2016
+ * Assignment: Module 3 Coding Assignment
+ */
+ 
+ body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffffff;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #999999;
+  border-radius: 0;
+  border: 1px solid #999999;
+  margin: 0;
+}
+
+.navbar-header a:hover, .navbar-header a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  color: #557c3e;
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+}
+
+#nav-list {
+  background-color: #ffffff;
+  border-color: #000000;
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  opacity: 0.4;
+  background: #dcdcdc;
+}
+
+#nav-list a:active {
+  color: #951C49;
+  background: #e7e7e7;
+}
+
+#collapsable-nav .nav-divider {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #000000;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+
+  background-color: #999999;
+  border: 1px solid #dcdcdc;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus  .icon-bar{
+
+  background-color: #999999;
+  border: 1px solid #dcdcdc;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #999999;
+  border: 1px solid #000000;
+}
+
+/* END HEADER PAGE */
+
+/* HOME PAGE */
+#main-content.container  {
+  width: 100%;
+  box-sizing: border-box;  
+  font-family: Arial, Helvetica, sans-serif; /* Step 15. */
+  font-size: 100%; /* Step 15. */  
+  
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+
+#home-sections  div {
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 8px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+}
+
+#home-sections  a {
+  text-decoration:underline;
+}
+
+#our-menu-title {
+  color: #000000;
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+h2, h3 {
+  font-weight: bold; /* Step 15. */
+  
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+section {
+  background-color: #999999; /* Step 14. *//* rgb(153, 153, 153) */
+  color: #000000;            /* Step 14. */
+  
+  margin-right: 0;
+  margin-left: 0;  
+  padding-top: 5px;   /* Step 13. */
+  padding-right:5px;  /* Step 13. */
+  padding-bottom: 5px; /* Step 13. */
+  padding-left: 10px;   /* Step 13. */  
+}
+
+/* END HOME PAGE */
+
+
