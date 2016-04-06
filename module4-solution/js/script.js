@@ -1,3 +1,11 @@
+/*
+ * Course_name: HTML, CSS, and Javascript for Web Developers
+ * Section: Coursera @ Johns Hopkins University
+ * Name: Fedorov Igor
+ * Date: April 6, 2016
+ * Assignment: Module 4 Coding Assignment
+ */
+ 
 $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
   // Same as document.querySelector("#navbarToggle").addEventListener("blur",...
